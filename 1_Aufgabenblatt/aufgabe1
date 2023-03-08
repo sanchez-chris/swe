@@ -1,0 +1,27 @@
+include<thread>
+incluse<thread>
+
+using namespace std;
+
+pid t fork();
+
+void main_child() {
+
+cout << "child here" << endl;
+
+}
+
+
+void main_parent() {
+
+cout << "parent here" << endl;
+
+}
+
+
+void main() {
+
+main_child();
+main_parent();
+
+}
